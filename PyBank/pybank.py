@@ -94,18 +94,12 @@ output =  (
     f"Greatest Increase in profits: {greatest[0]} $({greatest[1]})\n"
     f"Greatest Decrease in profits: {smallest[0]} $({smallest[1]})"
 )
+#Write the results to output file as a text file in the Analysis Folder pointed to at top of code
 with open(file_output, "w") as text_file:
     text_file.write(output)
 print(output)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
